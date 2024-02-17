@@ -110,3 +110,29 @@ p{
 .pricing-col{
     padding: 3% 2%;
 }
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: none;
+    }
+} 
+
+#cta{
+    padding-top:5% ;
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+}
+
+#footer{
+    text-align: center;
+    padding: 7% 15% 7%;
+}
+.footer-icons{
+    padding: 0 10px 0;
+    color: black;
+}
