@@ -1,35 +1,55 @@
 body{
     font-family: "Montserrat";
-}
-#title{
-    background-color: #ff4c68 ;
-    color: white;
+    text-align: center;
 }
 
-.container-fluid {
-    padding: 3% 15% 7%;
-}
-h1{
+h1,h2,h3,h4,h5,h6 {
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 1.5;
 }
 h2{
     font-size: 3rem;
-    font-weight: 900;
+    line-height: 1.5;
 }
-h3{
-    font-size: 1.5rem;
-    font-weight: 900;
-}
+
 p{
     color: #8f8f8f;
 }
+
+ /* Headings */
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+ /* Containers */
+.container-fluid {
+    padding: 7% 15%;
+}
+/* Sections */
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section{
+    background-color: #fff;
+    color: #000;
+}
+
+
+/* Features Section */
+
+
 #features{
-    padding: 7% 5%;
     position: relative;
     background-color: #fff;
+}
+.feature-title{
+    font-size: 1.5 rem;
 }
 .fa-color{
     color: #ef8172;
@@ -68,6 +88,12 @@ p{
     margin: 5% 3% 5% 0;
 }
 
+/* Title Section */
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
 /* Title Image */
 .title-image{
     width:60%;
@@ -78,23 +104,21 @@ p{
 
 /* Testimonials Section */
 #testimonials{
-    text-align: center;
     background-color: #ef8172;
-    color: #fff;
 }
-
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
 .testimonial-image{
     width: 10%;
     border-radius: 50%;
     margin: 20px;
 }
 
-.carousel-item{
-    padding: 7% 15%;
-}
+
 #press{
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 .press-logo{
@@ -105,7 +129,10 @@ p{
 /* Pricing */
 #pricing{
     padding: 100px;
-    text-align: center;
+}
+.pricing-text{
+    font-size: 3rem;
+    line-height: 1.5; 
 }
 .pricing-col{
     padding: 3% 2%;
@@ -121,17 +148,6 @@ p{
     }
 } 
 
-#cta{
-    padding-top:5% ;
-    background-color: #ff4c68;
-    color: #fff;
-    text-align: center;
-}
-
-#footer{
-    text-align: center;
-    padding: 7% 15% 7%;
-}
 .footer-icons{
     padding: 0 10px 0;
     color: black;
